@@ -1,0 +1,8 @@
+{
+ "name" : "Custom Chart Data Download",
+ "description" : "Buttom to easy dowload chart objects",
+ "icon" : "extension",
+ "type" : "visualization",
+ "version": "0.1.0",
+ "author": "Wederson Domingues"
+}
