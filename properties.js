@@ -4,7 +4,6 @@ define([], function () {
     return {
         type: "items",
         component: "accordion",
-
         items: {
             Configuration: {
                 type: "items",
