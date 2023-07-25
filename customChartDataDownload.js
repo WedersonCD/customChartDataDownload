@@ -59,8 +59,6 @@ define([
                 const APP = await qlik.currApp(this);
                 const OBJ = await APP.visualization.get(layout.settings.object.id);
 
-                console.log('obeto: ',OBJ)
-
                 setExportButtonAction(BUTTOM_ID, OBJ, layout)
 
             }
