@@ -5,11 +5,6 @@ define([
 
 ], function ($, props, qlik) {
 
-    function getPDFExportConfiguration(layout) {
-
-        return JSON.parse(layout.settings.object.configuration)
-    }
-
     function getBaseHTML(objectDivID, buttonId, iconClass, label) {
 
         //*
