@@ -39,7 +39,8 @@ define([], function () {
                         defaultValue: 'image',
                         options: [
                             { value: "image", label: "PNG" },
-                            { value: "XLSX", label: "XLSX" }
+                            { value: "XLSX", label: "XLSX" },
+                            { value: "PDF", label: "PDF" }
                         ]
                     },
                     Width: {
